@@ -595,3 +595,48 @@ transition:all ease-in-out .3s;
   }
   .step-no{-webkit-text-stroke: 1px #c6c6c6;z-index: -6;}
 /** end afaqy solutions sec **/
+
+/** start afaqy devices sec **/
+
+.afaqy-devices:before
+  {
+    content: "afaqy";
+    top: calc( 50% - 150px);
+    right: 54px;
+    font-size: 100px;
+    font-family: 'Tabarrapro ffp[1]', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    color: #f3f5f7;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+  }
+  .slider .custom-cta:before
+  {
+    width: 60%;
+    left:65px;
+  }
+  .slider .custom-cta:hover .more-arrow
+  {
+    left: 10px;
+  }
+  /**.device-content-back .bg-sympol:before
+  {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: -170px;
+    width: 500px;
+    height: 500px;
+    
+    opacity: .15;
+    mix-blend-mode: overlay;
+    transform: scaleX(-1);
+  }**/
+
+/** end afaqy devices sec **/
+
+/** end afaqy devices sec **/
