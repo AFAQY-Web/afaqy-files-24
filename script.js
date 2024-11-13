@@ -1,4 +1,4 @@
-(function(d,t) {
+ (function(d,t) {
         var BASE_URL="https://chat.bevatel.com";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=BASE_URL+"/packs/js/sdk.js";
