@@ -506,3 +506,44 @@ z-index:1;
     bottom: -85px;
   }
 /** end home style sec **/
+
+/** start afaqy numbers sec **/
+
+.afaqy-numbers .to-top:after,.afaqy-numbers .to-down:after,
+  .afaqy-numbers .to-top .up-arrow:before,.afaqy-numbers .to-bottom .down-arrow:before
+  {
+  	color:rgba(255,255,255,0)
+  }
+  .afaqy-numbers .to-top:hover:after,.afaqy-numbers .to-down:hover:after,.afaqy-numbers .to-top .up-arrow:before,.afaqy-numbers .to-down .down-arrow:before,.afaqy-numbers .to-down:hover .down-arrow:after,
+  .afaqy-numbers .to-top:hover .up-arrow:after
+   {
+  	color:rgba(255,255,255,1)
+  }
+.single-statistic svg
+{
+	width:50px;
+  
+}
+.single-statistic svg path
+{
+	transition:all ease-in-out .2s;
+}
+.single-statistic:hover svg .st0,
+.single-statistic:hover svg .st1,
+.single-statistic:hover .numb-txt.counter.sub:before
+{
+fill:#1a8922;
+}
+.numb-txt.counter.sub:before{
+content:"+";
+position:absolute;
+left:-20%;
+top:0;
+font-size: 20px;
+font-weight: 700;
+color:#fff;
+width:50px;
+height:50px;
+transition:all ease-in-out .3s;
+}
+/** end afaqy numbers sec **/
