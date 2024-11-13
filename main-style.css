@@ -468,3 +468,41 @@ z-index:1;
     .tutorial-item:hover .item-img{transform: scale(1);}
 
 /** end home style 02 **/
+
+/** start home style sec **/
+  .choose-aqaqy
+  {
+    background:#fff;
+  }
+  .to-down:after, .to-top:after
+  {
+    content: "next section";
+    color: rgba(35,40,107,0);
+    position: absolute;
+    width: auto;
+    font-size: 14px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    text-transform: capitalize;
+    bottom: -125px;
+    pointer-events: none;
+    transition: all .3s cubic-bezier(0.8,0,.5,1) .3s;
+  }
+  .to-top:after
+  {
+  	content: "previous section";
+    top: -125px;
+    bottom: auto;
+  }
+  .to-top:hover:after
+  {
+  	top: -180%;
+    color: rgba(35,40,107,1);
+  }
+  .to-down:hover:after
+  {
+  	color: rgba(35,40,107,1);
+    bottom: -85px;
+  }
+/** end home style sec **/
