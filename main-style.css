@@ -913,4 +913,5 @@ transition:all ease-in-out .3s;
   }
 .shape.xrent-sc,.xrent-2-sew .bg-shape.xrent-bgsh,.xrent-h-bg-asset-1,.x-rent-header-bg-lines,.bg-shape.odm-bgsh{mix-blend-mode: overlay;}
 .xrent-header-bg{mix-blend-mode: color-burn;}
+.shape.xrent-sc, .xrent-2-sew .bg-shape.xrent-bgsh, .xrent-h-bg-asset-1, .x-rent-header-bg-lines {mix-blend-mode: overlay;}
 /** End X-rent page style **/
