@@ -696,11 +696,12 @@ transition:all ease-in-out .3s;
 .choose-aqaqy .custom-cta:before{width: 65%;left: 95px;}
 /** end  connected vehicle page **/
 
-/** start smart businesses & smart businesses pages **/
+/** start smart businesses,cameras & smart businesses pages **/
 
   .custom-inner-txt{transition:all .3s ease-in-out .1s}
   .custom-cta:hover .custom-inner-txt{color:#fff}
   .dot{width: 24px !important;height: 24px !important;}
 .choose-aqaqy .custom-cta:before{width: 65%;left: 95px;}
 
-/** end smart businesses & smart businesses pages **
+
+/** end smart businesses,cameras and smart businesses pages **
