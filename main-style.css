@@ -845,3 +845,40 @@ transition:all ease-in-out .3s;
   }
 }
 /** End VDX page style **/
+
+/** Start smart taxi page style **/
+
+
+ .smar-tax-stroke:after
+  {
+    content: "";
+    width: 110%;
+    height: 110%;
+    top: 2%;
+    left: auto;
+    right: -5%;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #bdd3bf;
+    opacity: 100%;
+  }
+  .smar-tax-stroke:before
+  {
+    content: "";
+    width: 115%;
+    height: 125%;
+    top: 2%;
+    left: auto;
+    right: -8%;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #bdd3bf;
+    opacity: 100%;
+  }
+
+  .smart-taxi-header-left-texture{mix-blend-mode: color-dodge;}
+  .smart-taxi-hd-bg-texture-1, .smart-taxi-header-asset-2{mix-blend-mode: overlay;}
+  .smart-taxi-h-bg-pattern-left{mix-blend-mode:luminosity;}
+/** Start smart taxi page style **/
