@@ -801,3 +801,47 @@ transition:all ease-in-out .3s;
 .fleet-lottie svg{border-radius:25px;}
 }
 /** end fleet page style **/
+
+/** Start VDX page style **/
+.vdx-title-wrapper:before{content:"";position:absolute;width:20px;height:20px;border-top:solid 3px #fab719;border-left:solid 3px #fab719;left:-20px;top:0}
+.vdx-title-wrapper:after{content:"";position:absolute;width:20px;height:20px;border-top:solid 3px #fab719;border-right:solid 3px #fab719;right:-20px;top:0}
+.vdx-title-tips:before{content:"";position:absolute;width:20px;height:20px;border-bottom:solid 3px #fab719;border-left:solid 3px #fab719;left:-20px;top:0}
+.vdx-title-tips:after{content:"";position:absolute;width:20px;height:20px;border-bottom:solid 3px #fab719;border-right:solid 3px #fab719;right:-20px;top:0}
+.vdx-shadow:after
+{
+	content:"";
+  width:100%;
+  height:110%;
+  top: 20%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, hsla(0, 0.00%, 87.45%, 0.00), hsla(0, 0.00%, 100.00%, 0.00) 0%, white 44%, hsla(0, 0.00%, 100.00%, 0.00));
+    position: absolute;
+    border-radius: 50%;
+    opacity: 60%;
+}
+.vdx-shadow:before
+{
+	content:"";
+  width:100%;
+  height:125%;
+  top: 45%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, hsla(0, 0.00%, 87.45%, 0.00), hsla(0, 0.00%, 100.00%, 0.00) 0%, white 44%, hsla(0, 0.00%, 100.00%, 0.00));
+    position: absolute;
+    border-radius: 50%;
+    opacity: 25%;
+}
+.vdx-header-logo-l-bg{mix-blend-mode:lighten;}
+.vdx-left-side-img{mix-blend-mode: soft-light;}
+.vdx-header-bg-s-logo{mix-blend-mode: color-dodge;}
+.vdx-header-asset-bg-1,.vdx-shadow,.vdx-header-bg-techno{mix-blend-mode: overlay;}
+.demo-img-back-bg{mix-blend-mode:overlay}
+.demo-block.form-wrapper:after{content:"";position:absolute;right:-20%;top:-5%;width:650px;height:340px;background:url(https://uploads-ssl.webflow.com/63690e20ed4d3205b009767f/63cfe38fd27fae4a6eafc4c0_request-a-demo-grey-map-bg.png) no-repeat center center / 100%;opacity:.35;z-index:-1;}
+@media only screen and (max-width: 320px) {
+  .vdx-title-wrapper:before, .vdx-title-tips:before, .vdx-title-wrapper:after, .vdx-title-tips:after {
+    display:none;
+  }
+}
+/** End VDX page style **/
