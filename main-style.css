@@ -720,7 +720,7 @@ transition:all ease-in-out .3s;
 }
 /** end smart businesses,cameras and smart businesses pages **
 
-/** start buraq pro page style **
+/** start buraq pro page style **/
 
 .shadow:after
 {
@@ -754,4 +754,50 @@ transition:all ease-in-out .3s;
 .demo-img-back-bg{mix-blend-mode:overlay}
 .demo-block.form-wrapper:after{content:"";position:absolute;right:-20%;top:-5%;width:650px;height:340px;background:url(https://uploads-ssl.webflow.com/63690e20ed4d3205b009767f/63cfe38fd27fae4a6eafc4c0_request-a-demo-grey-map-bg.png) no-repeat center center / 100%;opacity:.35;z-index:-1;}
 
-/** start buraq pro page style **
+/** end buraq pro page style **/
+
+/** start fleet page style **/
+
+.fleet-shadow:after
+{
+	content:"";
+  width:100%;
+  height:110%;
+  top: 20%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, hsla(0, 0%, 87.5%, 0), hsla(0, 0%, 87.5%, 0) 0%, #dfdfdf 44%, hsla(0, 0%, 87.5%, 0));
+    position: absolute;
+    border-radius: 50%;
+    opacity: 60%;
+}
+.fleet-shadow:before
+{
+	content:"";
+  width:100%;
+  height:125%;
+  top: 45%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, hsla(0, 0%, 87.5%, 0), hsla(0, 0%, 87.5%, 0) 0%, #dfdfdf 44%, hsla(0, 0%, 87.5%, 0));
+    position: absolute;
+    border-radius: 50%;
+    opacity: 25%;
+}
+.left-side-img{mix-blend-mode: lighten;}
+.fleet-header-bg-0,.fleet-header-bg-00{mix-blend-mode: overlay;}
+.fleet-header-bg-rings{mix-blend-mode: color-dodge;}
+.fleet-header-bg-7-img-back,.fleet-header-bg-7-img-face{mix-blend-mode: multiply;}
+.fleet-highlights-bg-asset-1,.fleet-about-bg-ring{mix-blend-mode: darken;}
+.fleet-header-bg-2:before{content:"";position:absolute;width:85%;height:85%;background:#394968;border-radius:50%;z-index:-1}
+.fleet-lottie svg{display:block;border-radius:85px;position:relative}
+.fleet-lottie-reflection:before
+{content:"";position:absolute;top:-10%;height:400px;width:566px;right:-54%;background:url('https://uploads-ssl.webflow.com/63690e20ed4d3205b009767f/63e0eb7f58610e5cc19dad3c_fleet-header-bg-4.png') no-repeat center center / 45%; opacity:.45}
+.fleet-skewed-logo-shade,.fleet-map-bg{mix-blend-mode: overlay;}
+.demo-block.form-wrapper:after{content:"";position:absolute;right:-20%;top:-5%;width:650px;height:340px;background:url(https://uploads-ssl.webflow.com/63690e20ed4d3205b009767f/63cfe38fd27fae4a6eafc4c0_request-a-demo-grey-map-bg.png) no-repeat center center / 100%;opacity:.35;z-index:-1;}
+
+
+@media screen and (max-width: 320px){
+.fleet-lottie svg{border-radius:25px;}
+}
+/** end fleet page style **/
