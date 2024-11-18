@@ -706,7 +706,7 @@ transition:all ease-in-out .3s;
 .inner-content:before {
     content: "afaqy";
     top: calc( 50% - 150px);
-    right: 24px;
+    right: 70px;
     font-size: 100px;
     font-family: 'Tabarrapro ffp[1]', sans-serif;
     font-weight: 900;
