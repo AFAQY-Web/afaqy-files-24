@@ -966,6 +966,38 @@ transition:all ease-in-out .3s;
     left: 0%;}
 /** End Clean Cities page style **/
 
+/** Start Enforcer page style **/
+.enforcer-stroke:after
+  {
+    content: "";
+    width: 110%;
+    height: 110%;
+    top: 2%;
+    left: auto;
+    right: -5%;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #bdd3bf;
+    opacity: 100%;
+  }
+  .enforcer-stroke:before
+  {
+    content: "";
+    width: 115%;
+    height: 125%;
+    top: 2%;
+    left: auto;
+    right: -8%;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #bdd3bf;
+    opacity: 100%;
+  }
+/** End Enforcer page style **/
+
+
 /** Start Clients page style **/
 
 .client-holder > img
