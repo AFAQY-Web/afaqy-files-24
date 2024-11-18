@@ -692,8 +692,6 @@ transition:all ease-in-out .3s;
  .custom-inner-txt{transition:all .3s ease-in-out .1s}
   .custom-cta:hover .custom-inner-txt{color:#fff}
   .dot{width: 24px !important;height: 24px !important;}
-  
-.choose-aqaqy .custom-cta:before{width: 65%;left: 95px;}
 /** end  connected vehicle page **/
 
 /** start smart businesses,cameras & smart businesses pages **/
@@ -967,3 +965,16 @@ transition:all ease-in-out .3s;
     top: 0;
     left: 0%;}
 /** End Clean Cities page style **/
+
+/** Start Clients page style **/
+
+.client-holder > img
+{
+	transition:all .3s ease-in-out;
+  transform:scale(1);
+}
+.client-holder:hover > img
+{
+	transform:scale(.85);
+}
+/** Start Clients page style **/
