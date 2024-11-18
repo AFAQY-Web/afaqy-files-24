@@ -718,6 +718,7 @@ transition:all ease-in-out .3s;
     height: auto;
     text-transform: uppercase;
 }
+.inner-content.highlights:before{display:none}
 /** end smart businesses,cameras and smart businesses pages **
 
 /** start buraq pro page style **/
