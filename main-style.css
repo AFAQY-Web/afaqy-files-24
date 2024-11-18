@@ -942,3 +942,27 @@ transition:all ease-in-out .3s;
     z-index: -1;
   }
 /** End odm page style **/
+
+/** Start Clean Cities page style **/
+.clean-cities-cta.custom-cta:before{background:#1f5d84}
+.clean-cities-video:before{content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    border-bottom-right-radius: 16px;
+    border-bottom: solid 1px rgba(106,113,192,.20);
+    border-right: solid 1px rgba(106,113,192,.20);
+    bottom: 0;
+    right: 0%;}
+    .clean-cities-video:after{content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    border-top-left-radius: 16px;
+    border-top: solid 1px rgba(106,113,192,.20);
+    border-left: solid 1px rgba(106,113,192,.20);
+    top: 0;
+    left: 0%;}
+/** End Clean Cities page style **/
