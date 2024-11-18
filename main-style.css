@@ -926,3 +926,19 @@ transition:all ease-in-out .3s;
 .shape.odm-sc{mix-blend-mode: hard-light;}
 
 /** End odm page style **/
+
+/** Route odm page style **/
+.screenshots-mask-3{clip-path: polygon(0 0, 0% 100%, 100% 0);}
+.supported-assets:after
+  {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -5%;
+    width: 400px;
+    height: 400px;
+    background: url(https://uploads-ssl.webflow.com/63690e20ed4d3205b009767f/637e408aa321ea7fd1730774_afaqy-sympol-grey.svg) no-repeat center center / 100%;
+    opacity: .25;
+    z-index: -1;
+  }
+/** End odm page style **/
