@@ -915,3 +915,14 @@ transition:all ease-in-out .3s;
 .xrent-header-bg{mix-blend-mode: color-burn;}
 .shape.xrent-sc, .xrent-2-sew .bg-shape.xrent-bgsh, .xrent-h-bg-asset-1, .x-rent-header-bg-lines {mix-blend-mode: overlay;}
 /** End X-rent page style **/
+
+/** Start odm page style **/
+
+.odm-header-asset-0-left{mix-blend-mode: lighten;}
+.odm-header-asset-0{mix-blend-mode: color-dodge;}
+.odm-header-lens-flare-single,.odm-header-lens-flare,.odm-h-blue-arrow{mix-blend-mode: screen;}
+.odm-header-asset-5,.odm-header-asset-5-b,.odm-header-asset-5-c{mix-blend-mode: overlay;}
+.odm-h-min-blue-arrow{mix-blend-mode: color-dodge;}
+.shape.odm-sc{mix-blend-mode: hard-light;}
+
+/** End odm page style **/
