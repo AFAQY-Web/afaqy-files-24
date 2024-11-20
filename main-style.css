@@ -1119,7 +1119,7 @@ z-index:-1
 .fullscreen-nav.for-ar .nav-items .secondary.sub-nav ul{flex-direction: row-reverse;}
 .fullscreen-nav.for-ar .nav-items .secondary.sub-nav ul li.solution-title h1{font-family:"cairo";}
 .fullscreen-nav.for-ar .nav-items .subscription-holder{left:auto;margin: 0 8% 0 auto;right: 0;}
-.fullscreen-nav.for-ar .nav-items .subscription-holder form.subscription-form{flex-direction: row-reverse;}
+.fullscreen-nav.for-ar .nav-items .subscription-holder form.subscription-form{flex-direction: row-reverse;display: flex;}
 .fullscreen-nav.for-ar .nav-items .FS-nav-social-holder{right:auto;left:-42px}
 .fullscreen-nav.for-ar .nav-items .subscription-form input{direction:rtl;text-align:right;font-family:"cairo";}
 .fullscreen-nav.for-ar .nav-items .subscription-form input[type="submit"]{text-align:center}
@@ -1129,4 +1129,7 @@ z-index:-1
 .fullscreen-nav.for-ar .nav-items .co-in-row > p.branches-par, .fullscreen-nav.for-ar .nav-items .co-in-row > a{    padding-right: 20px}
 .fullscreen-nav.for-ar .nav-items .co-in-row > p.branches-par > span.bold-txt{margin-right: 0;}
 .fullscreen-nav.for-ar .nav-items .co-in-row > a{direction: ltr;}
+.fullscreen-nav.active .subscription-holder {
+    transition-delay: 1.75s;
+}
 /** End Arabic pages style **/
