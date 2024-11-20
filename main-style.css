@@ -1091,3 +1091,42 @@ z-index:-1
 .calculator-form{display:flex !important;}
 .success-default, .error-default{display:none !important}
 /** End Savings Calculator page style **/
+
+/** Start Arabic pages style **/
+.header-content-wrapper.for-ar{border-left: solid 1px rgba(255,255,255,.45);border-right:none}
+.header-title.for-ar:before, .header-title.for-ar:after{left: auto;right: 0;}
+.header-content-wrapper.for-arab{border-right: none;border-left: solid 1px rgba(255,255,255,.45);}
+.nav-trigger.for-ar{left:20px;right:auto;}
+.fullscreen-nav.for-ar{flex-direction:row-reverse}
+.fullscreen-nav.for-ar.active:before{transform:scaleY(0);} 
+.fullscreen-nav.for-ar.active:after{transform:scaleY(1);}
+.nav-trigger.for-ar.active > div{background: #fff !important;}
+.fullscreen-nav.for-ar .afaqy-sympol{right:auto;left:-17%;transform: translateY(0) scaleX(-1);}
+.fullscreen-nav.for-ar .nav-items:before{left:auto;right:0;content:"القــــــائــــمــة";font-family:"cairo";letter-spacing: 0;font-size: 40px;font-weight:normal;}
+.fullscreen-nav.for-ar .nav-items .fs-block-holder{left:0;right:auto}
+.fullscreen-nav.for-ar .nav-items ul.custom-list{align-items: flex-end;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li{padding-right: 8%;padding-left: 0;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li.solutions:after,.fullscreen-nav.for-ar .nav-items ul.custom-list li.hardware:after{transform: scaleX(-1);}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li a{text-align: right;direction: rtl;font-family: 'Cairo';}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li a span{text-align:center}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li:hover > a{letter-spacing: 1px;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li .sub-nav{left:auto;right: 27vw;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li .sub-nav{left:auto;right:27vw;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li .sub-nav.secondary{right: 18.5vw;width: 37vw;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li > .sub-nav:before{left:auto;right:0;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li.solutions:after, .fullscreen-nav.for-ar .nav-items ul.custom-list li.hardware:after{left: 30%;}
+.fullscreen-nav.for-ar .nav-items ul.custom-list li.hardware:hover:after, .fullscreen-nav.for-ar .nav-items ul.custom-list li.solutions:hover:after{left: 23%;}
+.fullscreen-nav.for-ar .nav-items .secondary.sub-nav ul{flex-direction: row-reverse;}
+.fullscreen-nav.for-ar .nav-items .secondary.sub-nav ul li.solution-title h1{font-family:"cairo";}
+.fullscreen-nav.for-ar .nav-items .subscription-holder{left:auto;margin: 0 8% 0 auto;right: 0;}
+.fullscreen-nav.for-ar .nav-items .subscription-holder form.subscription-form{flex-direction: row-reverse;}
+.fullscreen-nav.for-ar .nav-items .FS-nav-social-holder{right:auto;left:-42px}
+.fullscreen-nav.for-ar .nav-items .subscription-form input{direction:rtl;text-align:right;font-family:"cairo";}
+.fullscreen-nav.for-ar .nav-items .subscription-form input[type="submit"]{text-align:center}
+.fullscreen-nav.for-ar .nav-items .fs-block-holder{justify-content: flex-end;}
+.fullscreen-nav.for-ar .nav-items .FS-contact-info{left:auto;right:0;margin:0 30px 0 0;align-items:flex-start;direction:rtl;text-align:right;font-family:"cairo"}
+.fullscreen-nav.for-ar .nav-items .side-nav-subtitle, .fullscreen-nav.for-ar .nav-items .co-in-row > p.branches-par{text-align:right;}
+.fullscreen-nav.for-ar .nav-items .co-in-row > p.branches-par, .fullscreen-nav.for-ar .nav-items .co-in-row > a{    padding-right: 20px}
+.fullscreen-nav.for-ar .nav-items .co-in-row > p.branches-par > span.bold-txt{margin-right: 0;}
+.fullscreen-nav.for-ar .nav-items .co-in-row > a{direction: ltr;}
+/** End Arabic pages style **/
