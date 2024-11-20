@@ -1130,6 +1130,6 @@ z-index:-1
 .fullscreen-nav.for-ar .nav-items .co-in-row > p.branches-par > span.bold-txt{margin-right: 0;}
 .fullscreen-nav.for-ar .nav-items .co-in-row > a{direction: ltr;}
 .fullscreen-nav.active .subscription-holder {
-    transition-delay: 1.75s;
+    transition-delay: 1.75s;}
 }
 /** End Arabic pages style **/
