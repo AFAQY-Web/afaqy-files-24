@@ -133,7 +133,7 @@ transition: all .3s ease-in-out .1s;
 .scroll-down:hover span.down-arrow:after{top: 0; color: rgba(255,255,255,1);}
 .scroll-down:hover span.down-arrow:before{top: 40px;color: rgba(255,255,255,0);}
 .view-icon:before{
-	content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-eye-fill' viewBox='0 0 16 16'%3E%3Cpath d='M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0'/%3E%3Cpath d='M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7'/%3E%3C/svg%3E");
+	content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' fill='%23fff' class='bi bi-eye-fill' viewBox='0 0 16 16'%3E%3Cpath d='M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0'/%3E%3Cpath d='M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7'/%3E%3C/svg%3E");
     position: absolute;
     top: auto;
     color: rgba(255, 255, 255, 0);
