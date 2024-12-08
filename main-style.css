@@ -816,7 +816,7 @@ transition:all ease-in-out .3s;
 .left-side-img{mix-blend-mode: lighten;}
 .fleet-header-bg-0,.fleet-header-bg-00{mix-blend-mode: overlay;}
 .fleet-header-bg-rings{mix-blend-mode: color-dodge;}
-.fleet-header-bg-7-img-back,.fleet-header-bg-7-img-face{mix-blend-mode: multiply;}
+.fleet-header-bg-7-img-back,.fleet-header-bg-7-img-face{mix-blend-mode: luminosity;}
 .fleet-highlights-bg-asset-1,.fleet-about-bg-ring{mix-blend-mode: darken;}
 .fleet-header-bg-2:before{content:"";position:absolute;width:85%;height:85%;background:#394968;border-radius:50%;z-index:-1}
 .fleet-lottie svg{display:block;border-radius:85px;position:relative}
