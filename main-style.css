@@ -1343,5 +1343,5 @@ z-index:-1
 .fullscreen-nav.active .subscription-holder {
     transition-delay: 1.75s;
 }
-.custom-cta.for-ar:before{right: 75px;}
+.custom-cta.for-ar:before{right: 70px;left: auto;}
 /** End Arabic pages style **/
