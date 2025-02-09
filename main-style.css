@@ -1344,4 +1344,15 @@ z-index:-1
     transition-delay: 1.75s;
 }
 .custom-cta.for-ar:before{right: 70px;left: auto;}
+.sec-title.custom:before{
+content: "";
+position: absolute;
+width: 25px;
+height: 15px;
+background: #2a7130;
+right: auto;
+bottom: 5px;
+left: -.5rem;
+}
+.sec-title.custom.for-ar:before{left:auto;right:-.5rem}
 /** End Arabic pages style **/
