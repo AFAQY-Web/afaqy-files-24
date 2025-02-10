@@ -504,8 +504,8 @@ z-index:1;
 
 .tutorial-item{transition:all cubic-bezier(0.8,0,.5,1) .3s}
     .tutorial-item:hover{background:#eeeeee}
-    .item-img{transition:all cubic-bezier(0.8,0,.5,1) .3s;transform: scale(1.25);}
-    .tutorial-item:hover .item-img{transform: scale(1);}
+    .item-img{transition:all cubic-bezier(0.8,0,.5,1) .3s;transform: scale(1);}
+    .tutorial-item:hover .item-img{transform: scale(1.25);}
 
 /** end home style 02 **/
 
