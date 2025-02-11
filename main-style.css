@@ -1351,7 +1351,7 @@ width: 25px;
 height: 15px;
 background: #2a7130;
 right: auto;
-/*bottom: 5px;*/
+bottom: auto;
 left: -.5rem;
 }
 .sec-title.custom.for-ar:before{left:auto;right:-.5rem}
