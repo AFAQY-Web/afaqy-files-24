@@ -1101,6 +1101,88 @@ transition:all ease-in-out .3s;
   }
 /** End About page style **/
 
+/** sgaurd **/
+
+.sguard-stroke:after
+  {
+    content: "";
+    width: 110%;
+    height: 110%;
+    top: 2%;
+    left: auto;
+    right: -5%;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #bdd3bf;
+    opacity: 100%;
+  }
+  .sguard-stroke:before
+  {
+    content: "";
+    width: 115%;
+    height: 125%;
+    top: 2%;
+    left: auto;
+    right: -8%;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #bdd3bf;
+    opacity: 100%;
+  }
+  .sguard-about-logo-bg:after
+  {
+    content: "";
+    width: 140px;
+    height: 140px;
+    background: #fff;
+    left: 36%;
+    right: auto;
+    top: -70px;
+    z-index: 0;
+    position: absolute;
+  }
+    .sguard-video:before{
+    content: "";
+    width: 35%;
+    height: 75%;
+    top: -7%;
+    left: -4%;
+    right: auto;
+    background: #fff;
+    position: absolute;
+    border-top: solid 1px #cfd2fa;
+    border-radius: 10px 0 0;
+    border-left: solid 1px #cfd2fa;
+  }
+  .sguard-video:after{
+    content: "";
+    width: 35%;
+    height: 75%;
+    bottom: -7%;
+    right: -4%;
+    left: auto;
+    z-index:-1;
+    background: #fff;
+    position: absolute;
+    border-bottom: solid 1px #cfd2fa;
+    border-radius:0 0 10px 0;
+    border-right: solid 1px #cfd2fa;
+  }
+  .sguard-header-bg-pattern,.sguard-header-bg-asse-5{mix-blend-mode: screen;}
+  .sguard-header-bg-asse-2,.sguard-header-bg-asse-1,.sguard-header-bg-asse-12,.sguard-header-bg-asse-3{mix-blend-mode: overlay;}
+  .sguard-header-left-asset{mix-blend-mode: hard-light;}
+  .sguard-header-bg-lens-flare{mix-blend-mode: color-dodge;}
+  .demo-block.form-wrapper:after{content:"";position:absolute;right:-20%;top:-5%;width:650px;height:340px;background:url(https://uploads-ssl.webflow.com/63690e20ed4d3205b009767f/63cfe38fd27fae4a6eafc4c0_request-a-demo-grey-map-bg.png) no-repeat center center / 100%;opacity:.35;z-index:-1;}
+
+.demo-img-back-bg{mix-blend-mode: overlay;}
+  @media screen and (max-width: 320px){
+    .sguard-lottie svg{border-radius:0;}
+  }
+
+/** sgaurd **/
+
 /** Start Savings Calculator page style **/
 .solid-circle-top:after,.solid-circle-bottom:after
 {
