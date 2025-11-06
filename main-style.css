@@ -393,7 +393,7 @@ opacity:.075;
     justify-content: center;
     }
   .co-in-row > i.icon{width:25px;height:25px;display:flex;flex-direction:column;justify-content:center;align-items:center;}
-  .co-in-row > p.branches-par, .co-in-row > a{color:#fff;font-size:16px;padding-left: 20px;}
+  .co-in-row > p.branches-par, .co-in-row > a{color:#fff;font-size:16px;padding-left: 20px;text-decoration: none;}
   .co-in-row > p.branches-par > span.bold-txt{color:#fff;margin-right: 10px;
     font-weight: bold;
     font-size: 20px;}
