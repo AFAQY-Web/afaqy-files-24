@@ -362,6 +362,7 @@ opacity:.075;
     opacity: 0;
     transition:all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
+	.FS-nav-social-holder a{color:#fff;}
     .FS-contact-info{
     position:relative;
     display:flex;
